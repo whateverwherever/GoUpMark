@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="12dp"
+    android:background="#404040"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:text="钦城快线"
+        android:textSize="28sp"
+        android:textColor="#eeeeee"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_type"
+        android:layout_width="match_parent"
+        android:hint="请输入电话号码"
+        android:textColor="#eeeeee"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:id="@+id/editText_regedit_phoneNum" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_type"
+        android:layout_width="match_parent"
+        android:hint="请输入邮箱"
+        android:textColor="#eeeeee"
+        android:layout_height="wrap_content"
+        android:inputType="textWebEmailAddress"
+        android:id="@+id/editText_regedit_email" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_type"
+        android:layout_width="match_parent"
+        android:hint="请输入密码"
+        android:textColor="#eeeeee"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/editText_regedit_password" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_type"
+        android:layout_width="match_parent"
+        android:hint="请重新输入密码"
+        android:textColor="#eeeeee"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/editText_regedit_repassword" />
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textColor="#eeeeee"
+        android:onClick="register"
+        android:id="@+id/bt_regedit"
+        android:background="@drawable/login_btn"/>
+
+</LinearLayout>
